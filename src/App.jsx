@@ -45,7 +45,7 @@ function App() {
             <Route path="/3d" element={<PlayProvider> <Home /> </PlayProvider>} />
             <Route path="/ca" element={<CA />} />
             {/* <Route path="/past-speakers" element={<Speakers />} /> */}
-            {/* <Route path="/sponsors" element={<Sponsors />} /> */}
+            <Route path="/sponsors" element={<Sponsors />} /> 
             <Route path="/closed" element={<PreregiClosed />} />
             <Route path="/team" element={<Team />} />
             <Route path="/team24" element={<Team23 />} />
