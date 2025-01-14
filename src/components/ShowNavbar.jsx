@@ -9,7 +9,7 @@ const ShowNavbar = ({ children }) => {
         "/", "/ca", "/3d", "/events", 
         "/closed", "/register", "/team", "/team24", "/theme", "/preregister", 
         "/accommodation", "/workshop", "/dashboard", 
-        "/edit-profile", "/business-darbar"
+        "/edit-profile", "/business-darbar","/sponsors"
     ];
 
     useEffect(() => {

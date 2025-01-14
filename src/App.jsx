@@ -45,7 +45,11 @@ function App() {
             <Route path="/3d" element={<PlayProvider> <Home /> </PlayProvider>} />
             <Route path="/ca" element={<CA />} />
             {/* <Route path="/past-speakers" element={<Speakers />} /> */}
+<<<<<<< HEAD
             <Route path="/sponsors" element={<Sponsors />} /> 
+=======
+            <Route path="/sponsors" element={<Sponsors />} />
+>>>>>>> upstream/main
             <Route path="/closed" element={<PreregiClosed />} />
             <Route path="/team" element={<Team />} />
             <Route path="/team24" element={<Team23 />} />
