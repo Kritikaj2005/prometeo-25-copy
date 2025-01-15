@@ -27,7 +27,7 @@
 }
 /* Main Container Styles */
 .sponsors-title-main {
-  width:100%;
+  width: 100%;  /*centeralign*/
   display: flex;
   flex-direction: column;
   align-items: center;
