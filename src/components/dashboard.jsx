@@ -109,8 +109,7 @@ const Dasboard = () => {
   };
 
   const handlePay = (name) => {
-    setIsModalOpen(true)
-    setpaymentmethod(name)
+    toast.error(`payement for ${name} pass is now closed`);
   }
 
   const handleOpenModal = () => {
