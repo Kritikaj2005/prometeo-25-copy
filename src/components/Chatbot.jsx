@@ -223,7 +223,7 @@ const Chatbot = () => {
               onChange={(e) => setInputMessage(e.target.value)}
               placeholder="Ask me Anything"
             />
-            <button type="submit" disabled={isLoading}>➤</button>
+            <button type="submit" disabled={isLoading} className='submitButtonon'>➤</button>
           </form>
         </div>
       )}

@@ -176,6 +176,8 @@
   font-family: 'Roboto Flex', sans-serif;
   font-weight: 400;
   color: rgb(255, 255, 255, 1);
+  border: none;
+  outline: none;
 }
 
 .userInput input::placeholder {
@@ -187,7 +189,7 @@
   outline: none;
 } 
 
-.userInput button {
+.userInput .submitButtonon {
   margin-right:5px ;
   padding: 8px 10px;
   border: none;
@@ -197,9 +199,10 @@
   font-size: 25px;
 }
 
-.userInput button:focus {
+.userInput .submitButtonon:focus {
   outline: none;
   border: none;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 820px) {
